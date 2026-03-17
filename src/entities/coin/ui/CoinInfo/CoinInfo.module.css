@@ -1,0 +1,64 @@
+.coin-info-wrapper {
+  margin: 0;
+}
+
+.coin-card__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 0.75rem; 
+}
+
+.coin-card__price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-card__price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  transition: color 0.5s ease;
+}
+
+.coin-card__price--up {
+  color: var(--color-status-up-text); 
+}
+
+.coin-card__price--down {
+  color: var(--color-status-down-text);
+}
+
+.coin-card__status {
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: var(--color-bg-secondary);  
+  transition: all 0.5s ease;
+}
+
+.coin-card__status--up { 
+  color: var(--color-status-up-text); 
+  background-color: var(--color-bg-status-up); 
+}
+
+.coin-card__status--down { 
+  color: var(--color-status-down-text); 
+  background-color: var(--color-bg-status-down); 
+}
+
+.coin-card__status--same { 
+  color: var(--color-text-secondary); 
+  background-color: var(--color-bg-secondary); 
+}
+
+.coin-card__status--idle { 
+  color: var(--color-text); 
+  background-color: var(--color-bg-status-idle); 
+}

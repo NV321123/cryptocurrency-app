@@ -1,0 +1,50 @@
+:root {
+  --color-bg: #f7f9f2;
+  --color-text: #2d3436;
+  --color-primary: #ffcb48;
+  --color-secondary: #a8d8ea;
+  --color-success: #b5ead7;
+  --color-error: #ffb7b2;
+  --color-card: #ffffff;
+
+  --color-text-secondary: #b2bec3;
+  --color-bg-secondary: #f1f2f6;
+
+  --color-status-up-text: #00b894;
+  --color-status-down-text: #d63031;
+  
+  --color-bg-status-up: #e6fffa;
+  --color-bg-status-down: #fff5f5;
+  --color-bg-status-idle: #e7f6ff;
+
+  --radius: 12px;
+  
+  --shadow-sm: 0 0 0 3px rgba(168, 216, 234, 0.2);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.05);
+  --shadow-lg: 0 4px 6px rgba(0,0,0,0.05);
+  --shadow-xl: 0 4px 12px rgba(0,0,0,0.05);
+
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --max-width-content: 1000px;
+  --gap-grid: 2rem;
+
+  --space-xs: 0.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}

@@ -1,0 +1,10 @@
+.coin-card__actions {
+  display: flex;
+  gap: 0.5rem;   
+  margin: 0;
+  padding: 0;
+}
+
+.coin-card__update-btn {
+  flex: 1;
+}

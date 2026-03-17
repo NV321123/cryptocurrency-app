@@ -1,0 +1,71 @@
+.home-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  padding: 2rem 1rem;
+}
+
+.home-page__header {
+  max-width: var(--max-width-content);
+  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-page__header h1 {
+  color: var(--color-text);
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  margin: 0;
+}
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.online {
+  background-color: var(--color-status-up-text);
+  box-shadow: 0 0 5px var(--color-status-up-text);
+}
+
+.status-dot.offline {
+  background-color: var(--color-status-down-text);
+  box-shadow: 0 0 5px var(--color-status-down-text);
+}
+
+.home-page__main {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+}
+
+.controls-section {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.coin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--gap-grid); 
+  padding-inline-start: 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--color-text-muted);
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}

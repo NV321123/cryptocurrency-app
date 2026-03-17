@@ -1,0 +1,30 @@
+.add-coin-form {
+  background-color: var(--color-card);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-xl);
+  margin-bottom: 2rem;
+}
+
+.add-coin-form__input-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.add-coin-form__btn {
+  white-space: nowrap;
+  height: 42px; 
+  margin-bottom: 1px; 
+}
+
+@media (max-width: 600px) {
+  .add-coin-form__input-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .add-coin-form__btn {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.coin-card {
+  background-color: var(--color-card);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm); 
+  display: flex;
+  flex-direction: column;  
+  gap: 0.5rem;   
+  height: auto; 
+  transition: transform 0.2s, box-shadow 0.2s;  
+  margin: 0;
+}
+
+.coin-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg); 
+}
